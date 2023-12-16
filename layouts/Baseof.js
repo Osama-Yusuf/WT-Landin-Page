@@ -42,6 +42,7 @@ const Base = ({
 
         {/* author from config.json */}
         <meta name="author" content={meta_author} />
+        <meta name="google-site-verification" content="MW80qi7BH8wY5OYCkvMcPzJqNYQ7SdyTfLvNk6Suis8" />
 
         {/* og-title */}
         <meta
