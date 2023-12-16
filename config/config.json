@@ -1,0 +1,33 @@
+{
+  "site": {
+    "title": "Water Tracker",
+    "base_url": "/",
+    "favicon": "/images/Logo.png",
+    "logo": "/images/logo.png",
+    "logo_width": "160",
+    "logo_height": "36",
+    "logo_text": "Water Tracker"
+  },
+  "settings": {
+    "pagination": 4,
+    "summary_length": 200,
+    "blog_folder": "blogs"
+  },
+  "nav_button": {
+    "enable": true,
+    "label": "Download Now",
+    "link": "https://chromewebstore.google.com/detail/water-tracker/hieljicjokcedlioilnbljjbbocifknj",
+    "src": "/images/chrome.png"
+  },
+  "params": {
+    "contact_form_action": "",
+    "tag_manager_id": "",
+    "footer_content": "",
+    "copyright": "Designed and Developed By [Osama Youssef](https://linktr.ee/Osama_Youssef)"
+  },
+  "metadata": {
+    "meta_author": "Themefisher",
+    "meta_image": "",
+    "meta_description": "A SAAS template for nextjs"
+  }
+}
