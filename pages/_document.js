@@ -14,8 +14,10 @@ const Document = () => {
           sizes="32x32"
           href={favicon}
         />
-        {/* theme meta */}
+        {/* landing meta */}
         <meta name="theme-name" content="next-boilerplate" />
+        <meta name="title" content="Water Tracker Chrome Extension - Stay Hydrated Effortlessly" />
+        <meta name="description" content="Keep track of your daily water intake, set hydration goals, and view your drinking history with the Water Tracker extension." />
         <meta name="msapplication-TileColor" content="#000000" />
         <meta
           name="theme-color"

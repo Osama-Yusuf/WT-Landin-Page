@@ -26,8 +26,8 @@
     "copyright": "Designed and Developed By [Osama Youssef](https://linktr.ee/Osama_Youssef)"
   },
   "metadata": {
-    "meta_author": "Themefisher",
-    "meta_image": "",
-    "meta_description": "A SAAS template for nextjs"
+    "meta_author": "Osama Youssef",
+    "meta_image": "/images/Logo.png",
+    "meta_description": "Keep track of your daily water intake, set hydration goals, and view your drinking history with the Water Tracker extension."
   }
 }

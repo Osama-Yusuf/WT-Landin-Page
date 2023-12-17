@@ -44,6 +44,20 @@ const Base = ({
         <meta name="author" content={meta_author} />
         <meta name="google-site-verification" content="MW80qi7BH8wY5OYCkvMcPzJqNYQ7SdyTfLvNk6Suis8" />
 
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://water-tracker.com/" />
+        <meta property="og:title" content="Water Tracker Chrome Extension - Stay Hydrated Effortlessly" />
+        <meta property="og:description" content="Keep track of your daily water intake, set hydration goals, and view your drinking history with the Water Tracker extension." />
+        <meta property="og:image" content="Logo.png" />
+
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://water-tracker.com/" />
+        <meta property="twitter:title" content="Water Tracker Chrome Extension - Stay Hydrated Effortlessly" />
+        <meta property="twitter:description" content="Keep track of your daily water intake, set hydration goals, and view your drinking history with the Water Tracker extension." />
+        <meta property="twitter:image" content="https://water-tracker.com/image.png" />
+
         {/* og-title */}
         <meta
           property="og:title"
