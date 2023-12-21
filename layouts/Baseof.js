@@ -40,6 +40,17 @@ const Base = ({
           content={plainify(description ? description : meta_description)}
         />
 
+        {/* Google tag (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11454612873">
+        </script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'AW-11454612873');
+        </script>
+
         {/* author from config.json */}
         <meta name="author" content={meta_author} />
         <meta name="google-site-verification" content="MW80qi7BH8wY5OYCkvMcPzJqNYQ7SdyTfLvNk6Suis8" />
