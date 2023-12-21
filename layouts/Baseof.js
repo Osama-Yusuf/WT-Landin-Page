@@ -4,6 +4,7 @@ import Footer from "@partials/Footer";
 import Header from "@partials/Header";
 import Head from "next/head";
 import { useRouter } from "next/router";
+import Script from 'next/script'
 
 const Base = ({
   title,
@@ -41,15 +42,17 @@ const Base = ({
         />
 
         {/* Google tag (gtag.js) */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11454612873">
-        </script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-        
-          gtag('config', 'AW-11454612873');
-        </script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11454612873"></script>
+
+        <Script strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-11454612873');
+          `}
+        </Script>
+
 
         {/* author from config.json */}
         <meta name="author" content={meta_author} />
