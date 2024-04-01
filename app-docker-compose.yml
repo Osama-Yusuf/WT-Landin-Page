@@ -1,0 +1,17 @@
+version: '3.9'
+
+services:
+  react-app:
+    image: water-tracker:latest
+    ports:
+      - "890:80"
+    environment:
+      - VIRTUAL_HOST= water-tracker.com
+      - LETSENCRYPT_HOST= water-tracker.com
+      - LETSENCRYPT_EMAIL= ewarhou@gmail.com
+    networks:
+      - nginx_proxy-network
+
+networks:
+  nginx_proxy-network:
+    external: true
